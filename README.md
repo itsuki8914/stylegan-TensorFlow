@@ -7,7 +7,7 @@ official paper: https://arxiv.org/abs/1812.04948
 
 official implementation: https://github.com/NVlabs/stylegan
 
-this implementation is based on [my PGGAN implementation.](https://github.com/itsuki8914/PGGAN-TensorFlow)
+this code is based on [my PGGAN implementation.](https://github.com/itsuki8914/PGGAN-TensorFlow)
 
 <img src = 'examples/top.png' width=1280>
 
