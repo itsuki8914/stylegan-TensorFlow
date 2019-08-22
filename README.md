@@ -45,7 +45,23 @@ python main.py
 
 4. After training, inference can be performed.
 
+to draw uncurated images,
 ```
 python pred.py -m uc
 ```
 
+<img src = 'examples/uc.png' width=1280>
+
+to draw truncation trick images,
+```
+python pred.py -m tt
+```
+
+<img src = 'examples/tt.png' width=1280>
+
+to draw style mixing images,
+```
+python pred.py -m sm
+```
+
+<img src = 'examples/sm.png' width=1280>
