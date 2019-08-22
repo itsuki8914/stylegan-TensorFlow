@@ -50,18 +50,18 @@ to draw uncurated images,
 python pred.py -m uc
 ```
 
-<img src = 'examples/uc.png' width=1280>
+<img src = 'examples/uc_ffhq.png' width=1280>
 
 to draw truncation trick images,
 ```
 python pred.py -m tt
 ```
 
-<img src = 'examples/tt.png' width=1280>
+<img src = 'examples/tt_ffhq.png' width=1280>
 
 to draw style mixing images,
 ```
 python pred.py -m sm
 ```
 
-<img src = 'examples/sm.png' width=1280>
+<img src = 'examples/sm_ffhq.png' width=1280>
