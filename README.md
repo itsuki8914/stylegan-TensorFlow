@@ -108,10 +108,10 @@ without 1st and 2nd layers
 
 without all noise 
 
-###　Initial interpolation for each stage
+### Initial interpolation for each stage
 
-<img src = 'examples/init_stage.png' width=512>
+<img src = 'examples/init_stage.png' width=480>
 
-At the beginning of the stage, the kernel is unlearned, so interpolation is not performed well, this leads to quality degradation?
+At the beginning of the stage, the kernels are unlearned, so interpolation is not performed well, this leads to quality degradation?
 
 There are some other problems and I will continue experiments.
