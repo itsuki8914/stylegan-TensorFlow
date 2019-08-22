@@ -65,3 +65,13 @@ python pred.py -m sm
 ```
 
 <img src = 'examples/sm_ffhq.png' width=1280>
+
+## Other Results
+
+### Anime faces
+
+<img src = 'examples/uc_anime.png' width=1280>
+
+<img src = 'examples/tt_anime.png' width=1280>
+
+<img src = 'examples/sm_anime.png' width=1280>
