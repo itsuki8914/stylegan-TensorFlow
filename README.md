@@ -43,6 +43,15 @@ like this
 python main.py
 ```
 
+How long does it take to train using RTX 2070,
+```
+64x64     1d00h
+128x128   2d00h
+256x256   3d18h
+512x512   unknown
+1024x1024 unknown
+```
+
 4. After training, inference can be performed.
 
 to draw uncurated images,
@@ -70,8 +79,13 @@ python pred.py -m sm
 
 ### Anime faces
 
+uncurated
 <img src = 'examples/uc_anime.png' width=1280>
 
+truncation trick
 <img src = 'examples/tt_anime.png' width=1280>
 
+style mixing
 <img src = 'examples/sm_anime.png' width=1280>
+
+## Issues
