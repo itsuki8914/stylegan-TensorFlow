@@ -89,3 +89,29 @@ style mixing
 <img src = 'examples/sm_anime.png' width=1280>
 
 ## Issues
+
+As mentioned at the beginning, this implementation has problems.
+
+### First layer noise
+
+<img src = 'examples/1st_noise.png' width=1280>
+
+Diversity and quality are too sensitive to 1st noise.
+
+The above figure is from the left
+
+Use all noise
+
+without 1st layer noise
+
+without 1st and 2nd layers
+
+without all noise 
+
+###　Initial interpolation for each stage
+
+<img src = 'examples/init_stage.png' width=512>
+
+At the beginning of the stage, the kernel is unlearned, so interpolation is not performed well, this leads to quality degradation?
+
+There are some other problems and I will continue experiments.
