@@ -110,7 +110,7 @@ without all noise
 
 Because of this, style mixing and truncation trick cannot use 1st noise.
 
-And a slight improvement in quality and loss of diversity.
+Disabling 1st noise results slight improvement in quality and loss of diversity.
 
 <img src = 'examples/sm_1stnoise.png' width=1280>
 
