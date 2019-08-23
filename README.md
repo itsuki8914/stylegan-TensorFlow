@@ -48,7 +48,7 @@ How long does it take to train using RTX 2070,
 64x64     1d00h
 128x128   2d00h
 256x256   3d18h
-512x512   unknown
+512x512   6d13h(estimated)
 1024x1024 unknown
 ```
 
