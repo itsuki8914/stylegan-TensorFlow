@@ -112,6 +112,8 @@ Because of this, style mixing and truncation trick cannot use 1st noise.
 
 Disabling 1st noise results slight improvement in quality and loss of diversity.
 
+below images are style mixing and trucation trick using noise of 1st layer.
+
 <img src = 'examples/sm_1stnoise.png' width=1280>
 
 <img src = 'examples/tt_1stnoise.png' width=1280>
