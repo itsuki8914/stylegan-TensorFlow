@@ -72,7 +72,7 @@ def main():
 
     z_dim = 512
 
-    # loading images on training
+    # save sample images
     batch = BatchGenerator(img_size=512,datadir=DATASET_DIR)
     IN_ = batch.getBatch(4)
     IN_ = (IN_ + 1)*127.5
@@ -86,6 +86,7 @@ def main():
     fake_y = [buildDiscriminator(x, alpha, stage=i+1, reuse=False) for i, x in enumerate(X_fake)]
     real_y = [buildDiscriminator(x, alpha, stage=i+1, reuse=True) for i, x in enumerate(X_real)]
     lr = tf.placeholder(tf.float32, [])
+    
     """
     #WGAN-gp
     xhats = []
