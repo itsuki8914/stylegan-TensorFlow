@@ -108,6 +108,14 @@ without 1st and 2nd layers
 
 without all noise 
 
+Because of this, style mixing and truncation trick cannot use 1st noise.
+
+And a slight improvement in quality and loss of diversity.
+
+<img src = 'examples/sm_1stnoise.png' width=1280>
+
+<img src = 'examples/tt_1stnoise.png' width=1280>
+
 ### Initial interpolation for each stage
 
 <img src = 'examples/init_stage.png' width=480>
