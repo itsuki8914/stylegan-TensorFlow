@@ -168,7 +168,9 @@ def main(args):
         mlatent = np.array(mlatent)
         print(mlatent.shape)
 
-        g_image = sess.run(g_synthesis, feed_dict={w:mlatent,alpha:1.0})
+        g_image= np.zeros([49,res,res,3])
+        for i in range(7):
+            g_image[i*7:i*7+7] = sess.run(g_synthesis, feed_dict={w:mlatent[i*7:i*7+7],alpha:1.0})
         cv2.imwrite(os.path.join(SVIM_DIR,"img_truncation_trick_%d.png"%(seed)),tileImage(g_image+1)*127.5)
         print("saved as img_truncation_trick_%d.png"%(seed))
 
